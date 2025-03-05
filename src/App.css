@@ -1,0 +1,152 @@
+/* Global Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(135deg, #ffcc00, #ff3366);
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Marquee Styling */
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.marquee-text {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/* To-Do Container */
+.todo-container {
+  padding: 40px;
+  border-radius: 16px;
+  margin: 20px auto;
+  max-width: 700px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+/* Motivational Quote */
+.quote {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+}
+
+/* Input Styling */
+input {
+  width: calc(100% - 20px);
+  height: 45px;
+  border: 2px solid #ff3366;
+  padding: 10px;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Filter Buttons */
+.filters button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+  color: white;
+}
+
+/* Filter Button Colors */
+.filters button:nth-child(1) {
+  background: #ffcc00;
+  color: black;
+}
+
+.filters button:nth-child(2) {
+  background: #28a745;
+}
+
+.filters button:nth-child(3) {
+  background: #dc3545;
+}
+
+/* Hover Effects */
+.filters button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* To-Do Items */
+.todo-items {
+  text-align: left;
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-items li {
+  background: white;
+  color: black;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+/* To-Do Item Hover */
+.todo-items li:hover {
+  transform: scale(1.02);
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* Clear All Button */
+.clear-btn {
+  margin-top: 15px;
+  padding: 12px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.clear-btn:hover {
+  background-color: darkred;
+  transform: scale(1.05);
+}

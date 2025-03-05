@@ -1,0 +1,32 @@
+.welcome {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #d63384;
+  text-align: center;
+  width: 80%;
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Adds spacing between text and icons */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  margin: 20px auto;
+}
+
+/* Hover effect for smooth interaction */
+.welcome:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .welcome {
+    font-size: 18px;
+    width: 90%;
+    padding: 12px;
+  }
+}
