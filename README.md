@@ -26,7 +26,7 @@ A simple and interactive **To-Do App** built using **React + Vite**. This applic
 ## 🎯 How to Run  
 1. **Clone the repository**:  
    ```bash
-   git clone https://github.com/gaurav1045/todo-app.git
+   git clone https://github.com/Gaurav1045/todo-app.git
    ```
 2. **Navigate to the project directory**:  
    ```bash
