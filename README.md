@@ -18,10 +18,9 @@ A simple and interactive **To-Do App** built using **React + Vite**. This applic
 - **State Management**: React Hooks (useState)  
 
 ## 📂 Project Structure  
-- `src/` - Contains React components.  
+- `src/components` - Contains React components.  
 - `App.jsx` - Manages state and renders components.  
-- `TaskInput.jsx` - Handles task input fields.  
-- `TaskList.jsx` - Displays tasks in pending and completed sections.  
+- `App.css` - Contains global styling. 
 
 ## 🎯 How to Run  
 1. **Clone the repository**:  
