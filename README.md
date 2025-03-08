@@ -1,7 +1,3 @@
-Here's your README file for your **To-Do App** built with React and Vite:
-
----
-
 # 📝 To-Do App  
 
 A simple and interactive **To-Do App** built using **React + Vite**. This application helps users manage tasks efficiently by adding, completing, and deleting them.
