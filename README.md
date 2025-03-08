@@ -49,6 +49,5 @@ A simple and interactive **To-Do App** built using **React + Vite**. This applic
 - Implement drag-and-drop for task reordering.  
 - Introduce category-based task filtering.  
 
----
-
-Let me know if you need any modifications! 🚀
+## ©️ Copyright  
+Copyright © 2025 Gaurav Dhakate. All rights reserved.  
